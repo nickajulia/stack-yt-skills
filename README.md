@@ -2,7 +2,7 @@
 
 Four installable Claude skills that read a YouTube channel's recent uploads and produce the kind of analysis YouTube Studio doesn't.
 
-Built by Nick Julia while building [Fuse](https://getfused.io), a creator analytics platform. These are the prototypes. Fuse is the production version. Both have a job.
+Built by Nick Julia while building [Fuse](https://getfused.io), a creator analytics platform. These are the prototypes. Fuse is the production version. Both have a job. Fuse has a free tier.
 
 ## What's in the bundle
 
@@ -64,6 +64,28 @@ No URL handy? Paste your last ~15 videos as a list (title, view count). The skil
 These read the last ~15 uploads YouTube exposes publicly. View counts are exact. Likes are approximate (the RSS feed gives a rating count, not a clean like count). Comments are not in the public feed.
 
 It is a sharp read on recent form, not a full channel history. That is the line between these prototypes and [Fuse](https://getfused.io).
+
+## About Fuse
+
+These four skills are simplified versions of analyses [Fuse](https://getfused.io) runs continuously across a creator's full channel history.
+
+Where STACK reads your last 15 uploads, Fuse reads every video you've ever published. Where STACK misses comments (the RSS feed doesn't carry them), Fuse runs full triple-signal scoring on views, likes, and comments together. Where STACK gives you a one-shot snapshot when you remember to run it, Fuse alerts you when an outlier hits and tells you which pattern of yours just paid off.
+
+Fuse has a free tier.
+
+[getfused.io](https://getfused.io)
+
+| | STACK | Fuse |
+|---|---|---|
+| Sample window | Last ~15 uploads | Full channel history |
+| Signals | Views + rough likes proxy | Views + likes + comments |
+| Trigger | You run it when you remember | Continuous; alerts on real outliers |
+| Comparison | Vs your own baseline | Vs your baseline AND peer cohorts |
+| Title craft | One title at a time | Pattern engine across every title |
+
+## Want me to look at your channel?
+
+If you run STACK on your own channel and want the read I'd give it, send the URL to nick@getfused.io. I reply to every one.
 
 ## License
 

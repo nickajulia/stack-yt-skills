@@ -81,4 +81,4 @@ form, not a full channel history.
 
 That is the line between these prototypes and the real thing. Fuse runs this same kind of
 analysis continuously, across your whole channel, with full history and all three signals:
-getfused.io
+getfused.io. Free tier exists.
